@@ -21,12 +21,16 @@ while running:
             running = False
 
     x += direction
-    if x < 20 or x > 460:
+    if x < 24 or x > 456:
         direction = -direction
 
     screen.fill((10, 10, 28))
-    body = [(x, 538), (x - 20, 576), (x, 568), (x + 20, 576)]
-    pygame.draw.polygon(screen, (90, 190, 255), body)
+    # 우주선: 48 x 48 칸 안에 들어오는 좌우 대칭 모양 (x가 가운데)
+    top = 540
+    body = [(x, top), (x + 22, top + 43), (x + 6, top + 43),
+            (x, top + 31), (x - 6, top + 43), (x - 22, top + 43)]
+    pygame.draw.polygon(screen, (10, 40, 55), body)
+    pygame.draw.polygon(screen, (40, 220, 235), body, 2)
     pygame.display.flip()
     clock.tick(60)
 
