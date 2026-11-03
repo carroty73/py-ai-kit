@@ -2,7 +2,7 @@
 
 우주선이 좌우로 저절로 움직이면 파이썬, pygame 설치가 성공한 것이다.
 코드는 지금 몰라도 된다. 실행만 해 보자. (창을 닫으면 끝난다.)
-실행: python check.py
+실행: python check1.py
 """
 import pygame
 
