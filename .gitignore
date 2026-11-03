@@ -1,0 +1,11 @@
+# 실행하면 생기는 파일
+my_*.csv
+actions.csv
+results.csv
+*.joblib
+highscore.txt
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
