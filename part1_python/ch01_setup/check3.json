@@ -1,0 +1,21 @@
+{
+  "max_level": 5,
+  "background_color": [10, 10, 28],
+  "ship": {
+    "outline_width": 3,
+    "outline_color": [255, 255, 255]
+  },
+  "candy": {
+    "size": 36,
+    "tilt_degrees": -20,
+    "stripe_width": 3,
+    "colors": {
+      "F": {"body": [255, 220, 60], "stripe": [255, 245, 170]},
+      "R": {"body": [170, 90, 220], "stripe": [225, 190, 250]}
+    }
+  },
+  "abilities": {
+    "F": {"name": "초당 발사 수", "base": 1, "step": 1.8, "max": 10},
+    "R": {"name": "사정거리", "base": 150, "step": 100, "max": 650}
+  }
+}
