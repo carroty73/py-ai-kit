@@ -1,0 +1,11 @@
+{
+  "game_name": "AI Galaga",
+  "version": "1.0",
+  "graph_title": "dx-dy graph",
+  "log_title": "log",
+  "modes": [
+    "사람",
+    "모방학습",
+    "강화학습"
+  ]
+}
